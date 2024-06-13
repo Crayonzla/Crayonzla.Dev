@@ -1,9 +1,10 @@
+//Status
 function updateStatus() {
 
     const now = new Date();
     const hours = now.getHours();
     if (hours >= 6 && hours < 12) {
-        const status = `Status: still eepy`;
+        const status = `Status: thank you caffeine`;
         document.getElementById("status").textContent = status;
     }
     else if (hours >= 12 && hours < 18) {
@@ -11,6 +12,10 @@ function updateStatus() {
         document.getElementById("status").textContent = status;
     }
     else if (hours >= 18 && hours < 22) {
+        const status = `Status: absolutely`;
+        document.getElementById("status").textContent = status;
+    }
+    else if (hours >= 22 || hours < 6) {
         const status = `Status: sleeping (Probably)`;
         document.getElementById("status").textContent = status;
     }

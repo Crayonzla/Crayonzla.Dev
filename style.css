@@ -19,9 +19,11 @@ h2{
 }
 h3{
     color: #FFF5E0;
+    white-space: pre-wrap;
     font-family:"Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;";
+    font-size: 30px;
     margin-left: 90px;
-    margin-top: -20px;
+    margin-top: 40px;
 }
 h4{
     display: flex;
